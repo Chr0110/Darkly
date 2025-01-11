@@ -31,5 +31,5 @@ Surname : 5ff9d0165b4f92b14994e5c685cdce28
 
 After the Sh256 decryption the flag we get is:
 ```
-59a7f515c31c489524d2c93aa4a27b6732cf248d664389990fa8c1be8af00291
+59a7f515c31c489524d2c93XXXXXXXXXXXXXXXXXX
 ```
