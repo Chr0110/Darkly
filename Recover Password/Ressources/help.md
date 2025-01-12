@@ -1,0 +1,1 @@
+After clicking on forgot my password you can check "inspect" of the "http://10.12.181.103/?page=recover", after clicking the button "SUBMIT" you can see a hidden input with the value of the email who receive your request, try to change the email to another one and re-SUBMIT, and here we go
