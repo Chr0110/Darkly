@@ -14,4 +14,4 @@ So i change it to:
 <option value="11">1</option>
 ```
 
-After changing it and clicking on 1 i get the flag, cuase it's kind of an error.
+After changing it and clicking on 1 i get the flag, cause it's  an error.

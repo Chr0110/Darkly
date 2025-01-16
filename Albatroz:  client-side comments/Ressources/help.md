@@ -23,11 +23,22 @@ Let's use this browser : "ft_bornToSec". It will help you a lot.
 <center><h2 style="margin-top:50px;"> The flag is : f2a29020ef3132e01dd61df97fd33ec8d7fcd1388cc9601e7db691d17d4d6188</h2><br/><img src="images/win.png" alt="" width=200px height=200px></center> <audio id="best_music_ever" src="audio/music.mp3"preload="true" loop="loop" autoplay="autoplay">
 ```
 
+This curl command tests the server for potential vulnerabilities like:
+
+Referer trust issues (faking the Referer).
+User-Agent bypass attempts (custom User-Agent).
+
 ## Mitigation Measures:
 
-To prevent these vulnerabilities, consider the following security practices:
 
 Remove Debugging Information: Ensure that no debugging data, error messages, or stack traces are exposed in the production environment. Use environment-based logging and ensure errors are handled securely.
+
 Disable Console Logs in Production: Make sure console.log(), console.error(), or any other debug-related console methods are removed or disabled in production code.
 
 Sanitize Comments: Do not include sensitive information like user data, passwords, or configuration details in HTML comments or JavaScript variables.
+
+Never rely on Referer or User-Agent headers for authentication or authorization.
+
+Maintain an updated list of malicious User-Agents and IP addresses for blocking.
+
+Combine CSRF tokens, rate limiting, and behavior analysis to minimize exposure.

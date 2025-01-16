@@ -36,7 +36,6 @@ No Validation/Sanitization: The application does not validate or sanitize the sr
 
 ## Prevention and Mitigation Strategies
 
-To mitigate such vulnerabilities, consider the following measures:
 
 Sanitize and Validate Input: Always sanitize and validate all inputs, especially those that can influence HTML content or JavaScript execution. This includes parameters like src that might accept URLs or data URIs.
 Content Security Policy (CSP): Implement a strict CSP to prevent the execution of inline scripts and restrict resources to trusted domains. This would block malicious data URIs.

@@ -50,5 +50,4 @@ Obfuscate or Remove Sensitive Paths
 Avoid using common or predictable paths for sensitive pages. For example, don't use /admin/ or /login/ as paths for admin or login pages.
 Consider renaming sensitive URLs to make it more difficult for attackers to guess the location of sensitive pages (e.g., change /admin/ to /hidden-admin/).
 
-
 Use noindex Meta Tags for Sensitive Pages

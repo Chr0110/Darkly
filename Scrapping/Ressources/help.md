@@ -104,25 +104,12 @@ Tu veux de l'aide ? Moi aussi !
 ## Prevention and Mitigation Strategies
 Here’s how to secure a website or API against scraping:
 
-a) Authentication and Authorization
 Require user authentication to access sensitive data.
 Use role-based access control to ensure only authorized users can view specific content.
-b) Rate Limiting and Throttling
 Implement rate limits to restrict the number of requests a user or IP can make in a given time.
 Example: Use a WAF (Web Application Firewall) to detect and block excessive requests.
-c) Obfuscation and Encryption
 Avoid exposing sensitive data in the HTML or client-side JavaScript.
-Example: Use hashed or encrypted values for IDs and sensitive fields.
-d) Bot Detection
 Implement bot detection mechanisms, such as:
 CAPTCHAs
 Behavioral analysis (e.g., mouse movements, keystroke patterns)
 IP blacklisting for known malicious sources.
-e) Monitor and Log Activity
-Track access patterns for abnormal behaviors (e.g., rapid, repetitive requests from the same IP).
-Example: Use analytics tools to detect scrapers and block them.
-f) Secure APIs
-Protect APIs with:
-Authentication tokens
-Expiring keys
-Request signatures (e.g., HMAC).
