@@ -23,3 +23,18 @@ here is the flag
 ```
 46910d9ce35b385885a9f7e2bXXXXXXXXXXXXX
 ```
+
+
+##  Prevention
+
+Use input validation in both frontend and backend
+
+Always check on the extenssion of the file not only the MIME
+
+Restrict the maximum size of uploaded files to prevent Denial of Service (DoS) attacks or resource overloading
+
+Avoid using the original file name provided by the user, as it can contain malicious code or lead to name collisions
+
+Restrict File Permissions
+
+Check file headers to ensure they match the claimed type

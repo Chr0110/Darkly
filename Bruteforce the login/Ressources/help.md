@@ -59,3 +59,17 @@ And here as u noticed the right password that give you the flag is:
 shadow
 ```
 so the username is "shadow" and password is also "shadow"
+
+
+##  Prevention
+
+
+Avoid the use of leaked usernames and passwords or that includes related data to you or your website
+
+Use of Captcha
+
+Limit the number of attempts to login 
+
+Block login attempts coming from certain IPs
+
+Use strong password policies

@@ -30,6 +30,7 @@ I_am_admin=true
 ## Why is This Important 
 
 Unsecured cookies can compromise user privacy, allow unauthorized actions, and lead to data breaches. Proper cookie management is essential to secure modern web applications.
+
 ---
 
 
